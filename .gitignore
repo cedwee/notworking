@@ -1,4 +1,4 @@
-API.chatLog(" Lazy Room Script running :ballot_box_with_check: version dickhil/cedick ", true);
+API.chatLog(" Lazy Room Script running :ballot_box_with_check: version 1.7 ", true);
 function initEnvironment(){
        if (plugCubed === undefined) {
         //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
@@ -20,7 +20,7 @@ RMEnhancedModel = require('f5884/a365f/b5948').extend({
         };
     },
     initCSS: function() {
-                //$("body").prepend('<img src="http://i.imgur.com/u94c2tZ.gif" id="LAZY">');
+                //$("body").prepend('<img src="http://plug.dj/_/static/images/custom/tastycat/videoframe.cd9b648.png" id="LAZY">');
                 //$("body").prepend('<style> #lazy { position:absolute; top: 40px; left: 120px; } </style>');
                 $(".background").find('img').attr('src',' http://plug.dj/_/static/images/custom/tastycat/videoframe.cd9b648.png ');
         $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/s/x5xi4mi3aruk1w9/style.css">');
