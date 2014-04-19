@@ -21,8 +21,8 @@ RMEnhancedModel = require('f5884/a365f/b5948').extend({
     },
     initCSS: function() {
                 //$("body").prepend('<img src="http://i.imgur.com/u94c2tZ.gif" id="LAZY">');
-                //$("body").prepend('<style> #lazy { position:absolute; top: 40px; left: 30px; } </style>');
-                $(".background").find('img').attr('src',' http://i.imgur.com/XSRJtd9.png ');
+                //$("body").prepend('<style> #lazy { position:absolute; top: 40px; left: 120px; } </style>');
+                $(".background").find('img').attr('src',' http://i.imgur.com/DlTLcDl.png ');
         $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/s/x5xi4mi3aruk1w9/style.css">');
                 $('body').append('<div id="tooltip_custom" class="right" style="top: 28px; right: 120px; visibility: hidden;"><span>AutoWoot Enable/Disable</span><div class="corner"></div></div>');
                 $('body').append('<div id="tooltip_custom1" class="right" style="top: 28px; right: 70px; visibility: hidden;"><span>AutoJoin Enable/Disable</span><div class="corner"></div></div>');
